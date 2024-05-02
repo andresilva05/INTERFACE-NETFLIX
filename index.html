@@ -2,91 +2,147 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles.css">
-    <link rel="shortcut icon" href="./img/netflix-icon.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles.css" />
+    <link rel="shortcut icon" href="./img/netflix-icon.png" type="image/x-icon" />
     <title>Netflix</title>
 </head>
 
 <body>
     <div id="container">
         <div id="cabecalho">
-            <img id="logo-netflix" src="./img/netflix.svg" alt="logo-netflix">
+            <img id="logo-netflix" src="./img/netflix.svg" alt="logo-netflix" />
             <button id="botao-entrar">Entrar</button>
         </div>
 
         <div>
             <h1>Filmes, séries muito mais. Sem limites</h1>
-            <p id="paragrafo-assista">Assista onde quiser. Cancele quando quiser.</p>
-            <p id="paragrafo-pronto">Pronto para assistir? Informe seu email para criar ou reiniciar sua
-                assinatura.</p>
+            <p id="paragrafo-assista">
+                Assista onde quiser. Cancele quando quiser.
+            </p>
+            <p id="paragrafo-pronto">
+                Pronto para assistir? Informe seu email para criar ou reiniciar sua
+                assinatura.
+            </p>
             <div id="formulario">
-                <input placeholder="Email">
-                <button id="botao-email">Vamos lá <img src="./img/seta.svg" alt="seta"></button>
+                <input placeholder="Email" />
+                <button id="botao-email">
+                    Vamos lá <img src="./img/seta.svg" alt="seta" />
+                </button>
             </div>
         </div>
     </div>
-
-    <div id="rodape">
-        <h2>Perguntas frequentes</h2>
-        <button id="botao-pergunta">O que é a netflix? <img id="imagem-pergunta" src="./img/fechar.svg"></button>
-        <div id="pergunta">
-            <p class="paragrafo-pergunta">A Netflix é um serviço de transmissão online que oferece uma ampla variedade
-                de séries, filmes e
-                documentários premiados em milhares de aparelhos conectados à internet.
-            </p>
-            <br>
-            <p class="paragrafo-pergunta">Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem
-                comerciais – tudo por um
-                preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries
-                e filmes.</p>
+    <div class="pai-meio">
+        <div class="div-pai-meio">
+            <div class="texto-meio">
+                <h2>Aproveite na TV</h2>
+                <p>
+                    Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                    aparelhos de Blu-ray e outros dispositivos.
+                </p>
+            </div>
+            <div class="div-tv">
+                <img src="./img/tv-netflix.png" alt="" data-uia="nmhp-card-animation-asset-image" />
+                <video class="video" src="./img/video-meio-netflix.m4v"></video>
+            </div>
         </div>
-        <button id="botao-pergunta-2">Quanto custa a netflix? <img id="imagem-pergunta-2" src="./img/fechar.svg"></button>
-        <div id="pergunta-2"> 
-         <p class="paragrafo-pergunta-2">Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho,
-         de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem 
-         taxas extras. 
-             </p> 
-             <br>  
-        
+        <div class="pai-onde-quiser">
+            <div class="onde-quiser">
+                <div class="texto-onde">
+                    <h2>Assista onde quiser</h2>
+                    <p>
+                        Assista a quantos filmes e séries quiser no celular, tablet, laptop
+                        e TV.
+                    </p>
+                </div>
+                <div class="responsive">
+                    <img src="./img/responsivo-netflix.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="crie-perfil">
+            <div class="meio-perfil">
+                <div class="texto-perfil">
+                    <h2 id="h2">Crie perfis para crianças</h2>
+                    <p id="p">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+
+                </div>
+            </div>
+            <div class="perfil-img">
+                <div>
+                <img id="div-img" src="./img/img-netflix.png" alt="">
+            </div>
+            </div>
 
         </div>
-    </div>
+        <div id="rodape">
+            <h2>Perguntas frequentes</h2>
+            <button id="botao-pergunta">
+                O que é a netflix? <img id="imagem-pergunta" src="./img/fechar.svg" />
+            </button>
+            <div id="pergunta">
+                <p class="paragrafo-pergunta">
+                    A Netflix é um serviço de transmissão online que oferece uma ampla
+                    variedade de séries, filmes e documentários premiados em milhares de
+                    aparelhos conectados à internet.
+                </p>
+                <br />
+                <p class="paragrafo-pergunta">
+                    Você pode assistir a quantos filmes e séries quiser, quando e onde
+                    quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui
+                    você sempre encontra novidades. A cada semana, adicionamos novas
+                    séries e filmes.
+                </p>
+            </div>
+            <button id="botao-pergunta-2">
+                Quanto custa a netflix?
+                <img id="imagem-pergunta-2" src="./img/fechar.svg" />
+            </button>
+            <div id="pergunta-2">
+                <p class="paragrafo-pergunta-2">
+                    Assista à Netflix no seu celular, tablet, Smart TV, notebook ou
+                    aparelho, de streaming por uma taxa mensal única. Os planos variam de
+                    R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+                </p>
+                <br />
+            </div>
+        </div>
 </body>
 
 <script>
-  let botao = document.getElementById("botao-pergunta")
-  let menu = document.getElementById("pergunta")
-  let imagem = document.getElementById("imagem-pergunta")
+    let botao = document.getElementById("botao-pergunta");
+    let menu = document.getElementById("pergunta");
+    let imagem = document.getElementById("imagem-pergunta");
 
-  function abacate() {
-      if(menu.style.display == "none") {
-          menu.style.display = "block"
-          imagem.id = "imagem-pergunta-girar"            
-      } else {
-          menu.style.display = "none"
-          imagem.id = "imagem-pergunta"
-      }
-  }
-      
-  botao.addEventListener("click", abacate)
+    function abacate() {
+        if (menu.style.display == "none") {
+            menu.style.display = "block";
+            imagem.id = "imagem-pergunta-girar";
+        } else {
+            menu.style.display = "none";
+            imagem.id = "imagem-pergunta";
+        }
+    }
 
-  let botao2 = document.getElementById("botao-pergunta-2")
-  let menu2 = document.getElementById("pergunta-2")
-  let imagem2 = document.getElementById("imagem-pergunta-2")
+    botao.addEventListener("click", abacate);
 
-  function abacate2() {
-      if(menu2.style.display == "none") {
-          menu2.style.display = "block"
-          imagem2.id = "imagem-pergunta-girar"            
-      } else {
-          menu2.style.display = "none"
-          imagem2.id = "imagem-pergunta"
-      }
-  }
-      
-  botao2.addEventListener("click", abacate2)
+    let botao2 = document.getElementById("botao-pergunta-2");
+    let menu2 = document.getElementById("pergunta-2");
+    let imagem2 = document.getElementById("imagem-pergunta-2");
+
+    function abacate2() {
+        if (menu2.style.display == "none") {
+            menu2.style.display = "block";
+            imagem2.id = "imagem-pergunta-girar";
+        } else {
+            menu2.style.display = "none";
+            imagem2.id = "imagem-pergunta";
+        }
+    }
+
+    botao2.addEventListener("click", abacate2);
 </script>
+
 </html>
